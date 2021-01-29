@@ -1,7 +1,5 @@
-name: CI
-
+name: code-coverage
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,7 +7,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: Install Dependencies
       run: npm install sfdx-cli
-
     - name: Populate auth file
       run: 'echo "${{ secrets.SALESFORCE_AUTH_URL }}" > ./SALESFORCE_AUTH_URL.txt'
     - name: Authenticate Dev Hub
