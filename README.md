@@ -1,5 +1,5 @@
-# Code Coverage for Your Salesforce DX Application
-This project demonstrates using GitHub Actions and Codecov to track code coverage for a Salesforce DX Application. The sample code and GitHub Action are derived from [Jeferson Chaves' repository here](https://github.com/jefersonchaves/sfdxgithubactions).
+# Apex Code Coverage Demo with Codecov
+This project demonstrates using GitHub Actions, the Salesforce DX CLI, and Codecov to track code coverage for a Salesforce Apex Application. The sample code and GitHub Action are derived from [Jeferson Chaves' repository here](https://github.com/jefersonchaves/sfdxgithubactions).
 
 ## Prerequisites
 Before you begin, you should have:
